@@ -40,8 +40,8 @@ With Study Buddy MVP, students can focus on **learning**, not manual note-taking
 1. Clone the repository:
 
    ```bash
-   git clone <repo_url>
-   cd studybuddy
+   git clone https://github.com/adhikaribibek231/study-buddy-mvp.git
+   cd study-buddy-mvp
    ```
 2. Create a virtual environment and install dependencies:
 
