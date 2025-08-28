@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,react
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode,react
 
+##to ignore the uploaded pds
+notes/ 
+
 ### Django ###
 *.log
 *.pot
