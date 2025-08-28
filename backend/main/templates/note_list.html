@@ -1,0 +1,8 @@
+<h2>Your Notes</h2>
+<ul>
+    {% for note in notes %}
+        <li>{{ note.title }} - {{ note.file.url }}</li>
+    {% empty %}
+        <li>No notes uploaded yet.</li>
+    {% endfor %}
+</ul>
