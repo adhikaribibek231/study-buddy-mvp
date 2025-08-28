@@ -1,5 +1,5 @@
 
-# Study Buddy MVP
+# Study Buddy MVP(Work in progress)
 
 **Study Buddy MVP** is an AI-powered study assistant designed to help students learn more efficiently. This minimal viable product (MVP) allows users to transform their lecture notes or study materials into concise summaries and interactive flashcards, while using a simple spaced-repetition system to optimize review schedules.
 
