@@ -9,3 +9,7 @@ def extract_text_from_pdf(file_path):
                 text+=content + '\n'
             
     return text
+
+filename = r"F:\Personal Project\study-buddy-mvp\backend\notes\txt\resume.txt"
+with open(filename, 'w', encoding='utf-8') as file:
+    file.write(extract_text_from_pdf("F:\Resume - Bibek Adhikari.pdf"))
