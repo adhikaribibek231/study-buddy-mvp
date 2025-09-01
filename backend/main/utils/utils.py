@@ -74,4 +74,4 @@ def summarize_in_chunks(text):
     return batch_summaries if batch_summaries else chunk_summaries
 
 # Run the summarizer
-extract_text_from_pdf(r"G:\Compiler Design\compiler design.pdf")
+extract_text_from_pdf(r"C:\Users\adhik\OneDrive\Desktop\NRB\Subject wise syllabus\AI, ML and Neural Networks.pdf")
