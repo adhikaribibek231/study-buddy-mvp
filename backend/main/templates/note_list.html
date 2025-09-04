@@ -1,8 +1,24 @@
-<h2>Your Notes</h2>
-<ul>
+<h2 class="text-2xl font-semibold mb-4">📚 Your Notes</h2>
+
+<div class="grid gap-4">
     {% for note in notes %}
-        <li>{{ note.title }} -------------------- {{ note.file.url }}</li>
+        <div class="flex items-center justify-between bg-white shadow-md rounded-xl p-4 hover:shadow-lg transition">
+            <div class="flex items-center gap-3">
+                <span class="text-blue-500 text-xl">📝</span>
+                <h3 class="text-lg font-medium">{{ note.title }}</h3>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="{{ note.file.url }}" 
+                   class="px-3 py-1 text-sm bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+                   View
+                </a>
+                <a href="{{ note.file.url }}" download
+                   class="px-3 py-1 text-sm bg-green-500 text-white rounded-lg hover:bg-green-600 transition">
+                   Download
+                </a>
+            </div>
+        </div>
     {% empty %}
-        <li>No notes uploaded yet.</li>
+        <p class="text-gray-500 italic">No notes uploaded yet.</p>
     {% endfor %}
-</ul>
+</div>
